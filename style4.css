@@ -1,0 +1,71 @@
+*{
+    padding-top: 0px;
+    margin: 0px;
+}
+.visa1, .visa2 {
+    display: flex;
+}
+.card1, .card2, .card3, .card4{
+    background-color: #8A2BE2;
+    width: 320px;
+    height: 200px;
+    padding: 0px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+img {
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+.tel {
+    font-weight: 200;
+    font-size: 25px;
+    text-align: left;
+    margin-top: -5px;
+}
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+.valid, .seven {
+    font-size: 9px;
+    font-family: 'Tahoma', sans-serif;
+}
+.visaname {
+    display: flex;
+    justify-content: space-between;
+}
+.visa {
+    margin-right: 20px;
+}
+.card2 {
+    background-color: black;
+}
+.card3 {
+    background-color: green;
+}
+.card4 {
+    background-color: blue;
+}
+
+
+@media screen and (max-width: 650px) {
+    .visa1, .visa2 {
+        display: block;
+    }
+    .card1, .card2, .card3, .card4 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 350px) {
+    .card1, .card2, .card3, .card4 {
+       width: 285px;
+    }
+}
